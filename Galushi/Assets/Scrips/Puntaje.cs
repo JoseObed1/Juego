@@ -43,17 +43,17 @@ public class Puntaje : MonoBehaviour
         marcador.text = puntajeActual.ToString();
     }
 
-    public static void Combo(bool combo)
+    public static void Combo(bool combo, int punto = 1)
     {
         if (combo)
         {
-            puntajeActual += 1 * combos;
+            puntajeActual += punto * combos;
             if (combos < 7)
             {
                 combos += 2;
             }
         }
-        else
+        else if(!combo)
         {
             combos = 1;
         }

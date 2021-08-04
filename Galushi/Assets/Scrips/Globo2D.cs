@@ -11,6 +11,8 @@ public class Globo2D : MonoBehaviour
     private Vector2 starPosition;
     // Start is called before the first frame update
 
+    public int punto;
+
     AudioSource audioSource;
     public Sprite spritechange;
     private SpriteRenderer sprite;
@@ -38,12 +40,13 @@ public class Globo2D : MonoBehaviour
         {
             audioSource.Play();
             sprite.sprite = spritechange;
-            Puntaje.Combo(true);
-            transform.position = new Vector2(0, 6);
+            Puntaje.Combo(true, punto);
+            transform.position = new Vector2(0, 10);
             Destroy(gameObject, 1);
         }
-        else
+        else if(hit.transform.gameObject.name == "Techo")
         {
+            GasBar.lifeGas();
             Destroy(gameObject);   
         }
     }

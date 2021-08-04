@@ -9,7 +9,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4854910783110310213, guid: 43d831afeb26ed54eb50bd09c77880d0, type: 3}
       propertyPath: m_Name
-      value: azul
+      value: azul Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4854910783110310215, guid: 43d831afeb26ed54eb50bd09c77880d0, type: 3}
+      propertyPath: punto
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4854910783110310215, guid: 43d831afeb26ed54eb50bd09c77880d0, type: 3}
+      propertyPath: speed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4854910783110310216, guid: 43d831afeb26ed54eb50bd09c77880d0, type: 3}
       propertyPath: m_Sprite

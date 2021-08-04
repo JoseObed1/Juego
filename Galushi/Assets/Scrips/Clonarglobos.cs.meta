@@ -3,7 +3,12 @@ guid: c34e9336c587bc642bb3d46354c60fc9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Globo: {fileID: 3395809432795120390, guid: c11bbfd0684f6244db09aa5d0fd3868d, type: 3}
+  - Globo1: {fileID: 1426691314982212275, guid: 3186c7c17050dbb468224d5b4ff28107, type: 3}
+  - Globo2: {fileID: 4854910783110310213, guid: 43d831afeb26ed54eb50bd09c77880d0, type: 3}
+  - Globo3: {fileID: 1137293654794964073, guid: 85da76bcd936ddf4ba35d4d012ec7b70, type: 3}
+  - lanzador: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

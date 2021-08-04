@@ -5,13 +5,6 @@ using UnityEngine;
 public class Borde : MonoBehaviour
 {
     public GameObject nave;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,7 +13,7 @@ public class Borde : MonoBehaviour
             Renderer render = GetComponent<Renderer>();
             render.material.color = Color.green;
             Destroy(nave);
-            GameOver.Game_Over();
+            GameOver.Game_Over(GasBar.score1);
         }
 
     }
